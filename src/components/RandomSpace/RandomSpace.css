@@ -1,0 +1,13 @@
+.RandomSpace {
+    background-color: rgb(192, 45, 26);
+    border: none;
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.RandomSpace .RandomSpace-Letters {
+    color: rgba(255, 255, 255, 0.835);
+}
