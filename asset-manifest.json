@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sfplaces/static/css/main.1ad0c098.css",
-    "main.js": "/sfplaces/static/js/main.63b39864.js",
+    "main.js": "/sfplaces/static/js/main.4efdbdd9.js",
     "static/js/592.79a43fd6.chunk.js": "/sfplaces/static/js/592.79a43fd6.chunk.js",
     "index.html": "/sfplaces/index.html",
     "main.1ad0c098.css.map": "/sfplaces/static/css/main.1ad0c098.css.map",
-    "main.63b39864.js.map": "/sfplaces/static/js/main.63b39864.js.map",
+    "main.4efdbdd9.js.map": "/sfplaces/static/js/main.4efdbdd9.js.map",
     "592.79a43fd6.chunk.js.map": "/sfplaces/static/js/592.79a43fd6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ad0c098.css",
-    "static/js/main.63b39864.js"
+    "static/js/main.4efdbdd9.js"
   ]
 }
