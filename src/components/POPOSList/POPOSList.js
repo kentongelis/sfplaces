@@ -1,6 +1,6 @@
-import POPOSSpace from './POPOSSpace.js'
+import POPOSSpace from '../POPOSSpace/POPOSSpace.js'
 import './POPOSList.css';
-import data from './sfpopos-data.json'
+import data from '../../sfpopos-data.json'
 
 function POPOSList() {
   const spaces = data.map(( { title, address, images, hours }, i ) => {
