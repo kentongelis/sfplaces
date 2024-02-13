@@ -1,20 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+//import ReactDOM from 'react-dom/client';
+import { createRoot } from 'react-dom/client'
 import './index.css';
 import App from './App';
+import POPOSList from './POPOSList';
+import About from './About';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'
-import About from './About'
-import POPOSList from './POPOSList'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-ReactDOM.render(
   <Router>
     <Routes>
       <Route path="/" element={<App />}>
@@ -23,7 +20,7 @@ ReactDOM.render(
       </Route>
     </Routes>
   </Router>,
-  document.getElementById('root')
+  //document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
