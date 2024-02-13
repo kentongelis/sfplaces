@@ -4,9 +4,10 @@ import './Title.css';
 function Title() {
     return (
         <div className="Title">
-            <h1>SFPOPOS</h1> 
-            <div className="Title-Subtitle"></div>
-                <h2>San Fransiscos Privately Owned Public Spaces</h2>
+            <div className='Title-Text'>
+                <h1>SFPOPOS</h1> 
+                <div className='Title-Subtitle'>San Fransiscos Privately Owned Public Spaces</div>
+            </div>
         </div>
     )
 }
