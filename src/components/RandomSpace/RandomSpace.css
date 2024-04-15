@@ -10,4 +10,11 @@
 
 .RandomSpace .RandomSpace-Letters {
     color: rgba(255, 255, 255, 0.835);
+    font-size: 17px
+}
+
+@media only screen and (max-width: 960px) {
+    .RandomSpace .RandomSpace-Letters { 
+        font-size : 20px;
+    }
 }

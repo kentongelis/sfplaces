@@ -22,7 +22,7 @@ function POPOSList() {
   })
 
   return (
-    <div className="POPOSList">
+    <div className='search'>
       <form>
         <input
             value={query}
@@ -31,7 +31,9 @@ function POPOSList() {
         />
         <button type="submit">Submit</button>
       </form>
+      <div className="POPOSList">
       { spaces }
+      </div>
     </div>
   )
 }
