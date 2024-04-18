@@ -22,19 +22,19 @@ function POPOSList() {
   })
 
   return (
-    <div className='search'>
+    <main className='search'>
       <form>
-        <input
+        <input type="search"
             value={query}
             placeholder='search'
             onChange={(e) => setQuery(e.target.value)}
         />
         <button type="submit">Submit</button>
       </form>
-      <div className="POPOSList">
+      <aside className="POPOSList">
       { spaces }
-      </div>
-    </div>
+      </aside>
+    </main>
   )
 }
 

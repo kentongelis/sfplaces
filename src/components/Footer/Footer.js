@@ -2,11 +2,11 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <div className='Footer'>
+        <footer className='Footer'>
             <div className='Footer-Text'>
                 <p>Kenton Gelis copyright 2024</p>
             </div>
-        </div>
+        </footer>
     )
 }
 
