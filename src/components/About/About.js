@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div>
+        <article>
             <h1>About SFPOPOS</h1>
             <p>POPOS are publically accessible spaces in 
                 forms of plazas, terraces, atriums, small
@@ -9,7 +9,7 @@ function About() {
                 Fransisco, POPOS mostly appear in the Downtown 
                 office district area.
             </p>
-        </div>
+        </article>
     )
 }
 
